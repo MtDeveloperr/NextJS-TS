@@ -20,7 +20,7 @@ export default function LoginPage() {
 
     if (username === 'admin' && password === '1234') {
       localStorage.setItem('token', 'dummy_token');
-      router.push('/main/dashboard');
+      router.push('/dashboard');
     } else {
       alert('Kullanıcı adı veya şifre hatalı!');
     }
